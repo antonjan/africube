@@ -1,0 +1,55 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,Unpolarized capacitor,C_Small,C27,100nF,C_0805_HandSoldering,1,
+2,Unpolarized capacitor,C_Small,C16 C21,100pF,C_0805_HandSoldering,2,
+3,Polarised capacitor,CP_Small,C5 C8 C23 C25 C28,10uF 16V,C_0805_HandSoldering,5,
+4,Unpolarized capacitor,C_Small,C24,15pF,C_0805_HandSoldering,1,
+5,Unpolarized capacitor,C_Small,C9 C14,1nF,C_0805_HandSoldering,2,
+6,Polarised capacitor,CP,C1 C13,1uF 16V,CP_Tantalum_Case-R_EIA-2012-12_Reflow,2,
+7,Polarised capacitor,CP_Small,C2 C3 C15 C17 C20,1uF 16V,CP_Tantalum_Case-R_EIA-2012-12_Reflow,5,
+8,Unpolarized capacitor,C_Small,C6 C7 C11 C12,2200pF,C_0805_HandSoldering,4,
+9,Unpolarized capacitor,C_Small,C19 C26,220pF,C_0805_HandSoldering,2,
+10,Unpolarized capacitor,C_Small,C18,27pF,C_0805_HandSoldering,1,
+11,Unpolarized capacitor,C_Small,C4,3.3pF,C_0805_HandSoldering,1,
+12,Unpolarized capacitor,C_Small,C22 C29 C30 C31,33pF,C_0805_HandSoldering,4,
+13,Polarised capacitor,CP_Small,C10,4.7uF 16V,C_0805_HandSoldering,1,
+14,3-pin audio jack receptable (stereo/TRS connector),Audio-Jack-3,J3,Audio-Jack-3,Pin_Header_Straight_1x03_Pitch2.54mm,1,
+15,,CONN_01X03,J1,CONN_01X03,Pin_Header_Straight_1x03_Pitch2.54mm,1,
+16,"Generic connector, single row, 01x04",Conn_01x04,J4,CONN_01X04,Pin_Header_Straight_1x04_Pitch2.54mm,1,
+17,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)",Conn_Coaxial,J5,SMA Edge FM,Molex_SMA_Jack_Edge_Mount,1,
+18,point,TEST_1P,J2,TEST_1P,Pin_Header_Straight_1x01_Pitch2.54mm,1,
+19,Inductor,L,L7 L8,110nH,L_0805_HandSoldering,2,
+20,Inductor,L,L3,22nF,C_0805_HandSoldering,1,
+21,Inductor,L,L1 L5,33nF,C_0805_HandSoldering,2,
+22,Inductor,L,L2 L4,33nH,L_0805_HandSoldering,2,
+23,Inductor,L,L6 L9,56nH,L_0805_HandSoldering,2,
+24,,BC817-40,Q1 Q2 Q3,BC817-40,SOT-23,3,
+25,Resistor,R,R9 R12,0,R_0805_HandSoldering,2,
+26,Resistor,R,R1 R13,10k,R_0805_HandSoldering,2,
+27,Resistor,R,R2 R3 R5 R6,1K,R_0805_HandSoldering,4,
+28,Resistor,R,R4,1k8,R_0805_HandSoldering,1,
+29,Resistor,R,R10,2k2,R_0805_HandSoldering,1,
+30,Resistor,R,R17,4k7,R_0805_HandSoldering,1,
+31,Resistor,R,R15 R16,6k5,R_0805_HandSoldering,2,
+32,Resistor,R,R7 R8 R14,6k8,R_0805_HandSoldering,3,
+33,Resistor,R,R11,OC,R_0805_HandSoldering,1,
+34,Potentiometer,POT,RV1 RV2,4k7,Potentiometer_Bourns_3314G_Vertical,2,
+35,,MCP3421A0T-E/CH-RESCUE-vhf_uhf_IQ_Modulator,U5,MCP3421A0T-E/CH,SOT-23-6_Handsoldering,1,
+36,,MMZ09332BT1,U2,MMZ09332BT1,QFN-12-1EP_3x3mm_P0.5mm_EP1.65x1.65mm,1,
+37,,orange_pi_zero,U4,Orange Pi zero,orangepi-zero,1,
+38,,Si570,U3,Si570,Oscillator_SMD_SI570_SI571_HandSoldering,1,
+39,,TRF3701,U1,TRF3701,VQFN-16_3x3mm_trf3701_new,1,
+
+
+
+
+
+Component Groups:,39
+Component Count:,72
+Fitted Components:,72
+Number of PCBs:,1
+Total components:,72
+Schematic Version:,V1.0
+Schematic Date:,2018-06-01
+BoM Date:,Fri 03 Aug 2018 14:08:11 SAST
+Schematic Source:,/home/anton/Documents/kicad/IQ_Modulator/vhf_uhf_IQ_Modulator_V4.sch
+KiCad Version:,Eeschema 4.0.7-e2-6376~61~ubuntu18.04.1
