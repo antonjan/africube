@@ -1,0 +1,20 @@
+--2019-07-16 14:00:40--  https://drive.google.com/file/d/0B5zipGz4ccuAaTc4THdEQUJWUUJEV2xmRVpnT1FwWkxhQ0o4/view?usp=sharing_eip
+Resolving localhost (localhost)... 127.0.0.1
+Connecting to localhost (localhost)|127.0.0.1|:3128... connected.
+Failed reading proxy response: Success
+Retrying.
+
+--2019-07-16 14:01:10--  (try: 2)  https://drive.google.com/file/d/0B5zipGz4ccuAaTc4THdEQUJWUUJEV2xmRVpnT1FwWkxhQ0o4/view?usp=sharing_eip
+Connecting to localhost (localhost)|127.0.0.1|:3128... connected.
+Proxy request sent, awaiting response... 302 Moved Temporarily
+Location: https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&continue=https://drive.google.com/file/d/0B5zipGz4ccuAaTc4THdEQUJWUUJEV2xmRVpnT1FwWkxhQ0o4/view?usp%3Dsharing_eip&followup=https://drive.google.com/file/d/0B5zipGz4ccuAaTc4THdEQUJWUUJEV2xmRVpnT1FwWkxhQ0o4/view?usp%3Dsharing_eip [following]
+--2019-07-16 14:01:11--  https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&continue=https://drive.google.com/file/d/0B5zipGz4ccuAaTc4THdEQUJWUUJEV2xmRVpnT1FwWkxhQ0o4/view?usp%3Dsharing_eip&followup=https://drive.google.com/file/d/0B5zipGz4ccuAaTc4THdEQUJWUUJEV2xmRVpnT1FwWkxhQ0o4/view?usp%3Dsharing_eip
+Connecting to localhost (localhost)|127.0.0.1|:3128... connected.
+Proxy request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘view?usp=sharing_eip’
+
+view?usp=sharing_ei     [<=>                 ]       0  --.-KB/s               view?usp=sharing_ei     [ <=>                ]  55.70K  --.-KB/s    in 0.07s   
+
+2019-07-16 14:01:11 (811 KB/s) - ‘view?usp=sharing_eip’ saved [57034]
+
