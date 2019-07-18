@@ -1,0 +1,10 @@
+(module dsk-drill-rpi-hat (layer F.Cu) (tedit 54F0E960)
+  (fp_text reference H3 (at 0 2.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value DRILL (at 0 4) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 2.75 2.75) (drill 2.75) (layers *.Cu)
+    (solder_mask_margin 1.725) (clearance 1.725) (zone_connect 0))
+)
