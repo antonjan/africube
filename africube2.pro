@@ -1,4 +1,4 @@
-update=Tue 16 Jul 2019 12:48:26 SAST
+update=Tue 23 Jul 2019 14:22:30 SAST
 version=1
 last_client=kicad
 [general]
@@ -27,6 +27,16 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -63,13 +73,7 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName33=analog_devices
+LibName34=AD8317
+LibName35=ADC-15-4+
+LibName36=adc-20-4

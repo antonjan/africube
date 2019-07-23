@@ -1,0 +1,34 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# AD8317
+#
+DEF AD8317 U 0 40 Y Y 1 L N
+F0 "U" -400 300 50 H V L BNN
+F1 "AD8317" -400 -400 50 H V L BNN
+F2 "DFN-8-EXTRA" 0 0 50 H I L BNN
+F3 "AD8317" 0 0 50 H I L BNN
+F4 "None" 0 0 50 H I L BNN
+F5 "Analog Devices" 0 0 50 H I L BNN
+F6 "LFCSP-8 Analog Devices" 0 0 50 H I L BNN
+F7 "Unavailable" 0 0 50 H I L BNN
+F8 "ADI 8GHz Log Detector 50dB" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -400 -300 400 -300 N
+P 2 0 0 10 400 -300 400 300 N
+P 2 0 0 10 400 300 -400 300 N
+P 2 0 0 10 -400 300 -400 -300 N
+X INHI 1 -600 150 200 R 40 40 0 0 B 
+X COMM 2 -600 50 200 R 40 40 0 0 B 
+X CLPF 3 -600 -50 200 R 40 40 0 0 B 
+X VSET 4 -600 -150 200 R 40 40 0 0 B 
+X VOUT 5 600 -150 200 L 40 40 0 0 B 
+X TADJ 6 600 -50 200 L 40 40 0 0 B 
+X VPOS 7 600 50 200 L 40 40 0 0 B 
+X INLO 8 600 150 200 L 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library
