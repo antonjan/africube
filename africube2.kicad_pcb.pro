@@ -1,6 +1,6 @@
-update=Mon 26 Aug 2019 21:22:35 SAST
+update=Mon 31 Jul 2017 10:04:56 AM MDT
 version=1
-last_client=eeschema
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -63,14 +63,3 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=africube2-cache
-LibName34=vhf_uhf_IQ_Modulator_V4-cache
-LibName35=raspberrrypi_hat-cache
-LibName36=dk_RF-Amplifiers
-LibName37=africube_v1-cache
-LibName38=adc-20-4
-LibName39=HamShield09-cache
-LibName40=BA178M05FP-E2
-LibName41=ADC-20-4
-LibName42=ADC-15-4+
-LibName43=AD8317
