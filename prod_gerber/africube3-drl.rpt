@@ -1,0 +1,26 @@
+Drill report for /home/anton/Documents/kicad/africube/africube3.kicad_pcb
+Created on Fri 06 Sep 2019 21:58:01 SAST
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'africube3.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.20mm  0.008"  (61 holes)
+    T2  0.46mm  0.018"  (2 holes)
+    T3  0.51mm  0.020"  (26 holes)
+    T4  1.00mm  0.039"  (46 holes)
+
+    Total plated holes count 135
+
+
+Drill file 'africube3-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  2.75mm  0.108"  (8 holes)
+
+    Total unplated holes count 8
