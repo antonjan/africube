@@ -1,4 +1,4 @@
 # africube is the repository of a linear satellite transponder. (AMSATSA)
 
 # Project Status.
-This project just started and is not compleet yet. 12 Jully 2019
+This project TX PCB is compleet and testing will start now. 10 September 2019
