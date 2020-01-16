@@ -5,10 +5,11 @@ This project TX PCB is compleet and testing will start now. 10 September 2019
 Transponder is now working propely and CW and APRS telemetry is also working.
 Oustanding is sensor reading. 16 Jan 2020
 # Link Budget
-Link BudgetIt is necessary that our beacon’s signal be able to reach the antenna at our ground station.  
-The beacon willtransmit at 145.850 MHz.  
+Link Budget
+It is necessary that our beacon’s signal be able to reach the antenna at our ground station.  
+The beacon will transmit at 145.850 MHz.  
 Using the free space model, we can calculate the maximum path loss:
-Maximum Path Loss    =    32.4 dB + 20 log(dkm) dB + 20 log(fMHz) dB=32.4 dB + 20 log(8000) dB + 20 log(140) dB=144.86 dB
+Maximum Path Loss = 32.4 dB + 20 log(dkm) dB + 20 log(fMHz) dB=32.4 dB + 20 log(8000) dB + 20 log(140) dB=144.86 dB
 Our transmission power will be 200 mW, which in dBm is 23 (30 + 10 log(0.1)) 
 The feeder loss for ourtransmitter will be quite low, since the radio is close to the antenna on the cubeSAT. 
 We will assume this loss is about 0.2 dB and that the antenna’s gain is about 2 dI (which is reasonable for a whip antenna ona cubeSAT), so our effective isotropic radiated power should be about 24.6 dBm 
