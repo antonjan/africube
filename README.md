@@ -2,6 +2,8 @@
 
 # Project Status.
 This project TX PCB is compleet and testing will start now. 10 September 2019
+Transponder is now working propely and CW and APRS telemetry is also working.
+Oustanding is sensor reading. 16 Jan 2020
 # Link Budget
 Link BudgetIt is necessary that our beacon’s signal be able to reach the antenna at our ground station.  
 The beacon willtransmit at 145.850 MHz.  
