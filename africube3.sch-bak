@@ -1,6 +1,50 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:_saved_africube2-cache
+LIBS:africube2-cache
+LIBS:vhf_uhf_IQ_Modulator_V4-cache
+LIBS:raspberrrypi_hat-cache
+LIBS:dk_RF-Amplifiers
+LIBS:africube_v1-cache
+LIBS:adc-20-4
+LIBS:HamShield09-cache
+LIBS:BA178M05FP-E2
+LIBS:ADC-20-4
+LIBS:ADC-15-4+
+LIBS:AD8317
 LIBS:africube3-cache
-EELAYER 30 0
+EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -15,7 +59,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L _saved_africube2-cache:Conn_Coaxial J1
+L Conn_Coaxial J1
 U 1 1 59F85ADB
 P 8250 2200
 F 0 "J1" H 8260 2320 50  0000 C CNN
@@ -26,7 +70,7 @@ F 3 "" H 8250 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR01
+L GND #PWR01
 U 1 1 59FF479B
 P 5250 5150
 F 0 "#PWR01" H 5250 4900 50  0001 C CNN
@@ -37,7 +81,7 @@ F 3 "" H 5250 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L _saved_africube2-cache:CP_Small C3
+L CP_Small C3
 U 1 1 5A12ECC9
 P 5650 1400
 F 0 "C3" H 5500 1300 50  0000 L CNN
@@ -50,7 +94,7 @@ $EndComp
 Text Notes 2800 8550 0    118  ~ 0
 2m Filter\n\nFilter SXBP-140+\nrf Amp  SKY65017-70LF\nMAAM-011185-TR1000 \nTQP7M9105\n\nrf directional copler  DBTC-20-4LX+  or ADC-20-4
 $Comp
-L _saved_africube2-cache:RPi_GPIO J3
+L RPi_GPIO J3
 U 1 1 5D284E9D
 P 3200 3750
 F 0 "J3" H 3950 4000 60  0000 C CNN
@@ -61,7 +105,7 @@ F 3 "" H 3200 3750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L _saved_africube2-cache:R R4
+L R R4
 U 1 1 5D285861
 P 2350 2700
 F 0 "R4" V 2430 2700 50  0000 C CNN
@@ -72,7 +116,7 @@ F 3 "" H 2350 2700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L _saved_africube2-cache:C_Small C10
+L C_Small C10
 U 1 1 5D2859AF
 P 2350 3650
 F 0 "C10" H 2360 3720 50  0000 L CNN
@@ -83,7 +127,7 @@ F 3 "" H 2350 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR02
+L GND #PWR02
 U 1 1 5D285F6E
 P 3000 3000
 F 0 "#PWR02" H 3000 2750 50  0001 C CNN
@@ -94,7 +138,7 @@ F 3 "" H 3000 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L _saved_africube2-cache:C_Small C4
+L C_Small C4
 U 1 1 5D28AC94
 P 2450 1900
 F 0 "C4" H 2460 1970 50  0000 L CNN
@@ -105,7 +149,7 @@ F 3 "" H 2450 1900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L _saved_africube2-cache:TQP7M9105 U1
+L TQP7M9105 U1
 U 1 1 5D28AEEE
 P 4000 1900
 F 0 "U1" H 3800 2300 60  0000 C CNN
@@ -116,7 +160,7 @@ F 3 "" H 4000 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR03
+L GND #PWR03
 U 1 1 5D28B1FD
 P 4000 2350
 F 0 "#PWR03" H 4000 2100 50  0001 C CNN
@@ -129,7 +173,7 @@ $EndComp
 Text Notes 3650 1400 0    60   ~ 0
 23db (out 27dbm)
 $Comp
-L _saved_africube2-cache:C_Small C5
+L C_Small C5
 U 1 1 5D28B7CB
 P 6000 1900
 F 0 "C5" H 6010 1970 50  0000 L CNN
@@ -144,7 +188,7 @@ Text Label 3250 1750 0    60   ~ 0
 Text Label 2250 4200 0    60   ~ 0
 15dbm
 $Comp
-L _saved_africube2-cache:R R3
+L R R3
 U 1 1 5D28BAD8
 P 2750 2500
 F 0 "R3" V 2830 2500 50  0000 C CNN
@@ -155,7 +199,7 @@ F 3 "" H 2750 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L _saved_africube2-cache:R R2
+L R R2
 U 1 1 5D28BB47
 P 2350 2250
 F 0 "R2" V 2430 2250 50  0000 C CNN
@@ -166,7 +210,7 @@ F 3 "" H 2350 2250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR04
+L GND #PWR04
 U 1 1 5D28BD77
 P 3000 2500
 F 0 "#PWR04" H 3000 2250 50  0001 C CNN
@@ -177,7 +221,7 @@ F 3 "" H 3000 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR05
+L GND #PWR05
 U 1 1 5D28BF32
 P 5250 3950
 F 0 "#PWR05" H 5250 3700 50  0001 C CNN
@@ -188,7 +232,7 @@ F 3 "" H 5250 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR06
+L GND #PWR06
 U 1 1 5D28BF8B
 P 2800 4150
 F 0 "#PWR06" H 2800 3900 50  0001 C CNN
@@ -199,7 +243,7 @@ F 3 "" H 2800 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR07
+L GND #PWR07
 U 1 1 5D28BFE4
 P 2800 4950
 F 0 "#PWR07" H 2800 4700 50  0001 C CNN
@@ -210,7 +254,7 @@ F 3 "" H 2800 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR08
+L GND #PWR08
 U 1 1 5D28C433
 P 2800 5650
 F 0 "#PWR08" H 2800 5400 50  0001 C CNN
@@ -221,7 +265,7 @@ F 3 "" H 2800 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR09
+L GND #PWR09
 U 1 1 5D28C730
 P 5250 4650
 F 0 "#PWR09" H 5250 4400 50  0001 C CNN
@@ -232,7 +276,7 @@ F 3 "" H 5250 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR010
+L GND #PWR010
 U 1 1 5D28C789
 P 5250 5350
 F 0 "#PWR010" H 5250 5100 50  0001 C CNN
@@ -243,7 +287,7 @@ F 3 "" H 5250 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR011
+L GND #PWR011
 U 1 1 5D28C7E2
 P 5250 4350
 F 0 "#PWR011" H 5250 4100 50  0001 C CNN
@@ -254,7 +298,7 @@ F 3 "" H 5250 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR012
+L +5V #PWR012
 U 1 1 5D28CE0E
 P 5400 3650
 F 0 "#PWR012" H 5400 3500 50  0001 C CNN
@@ -265,7 +309,7 @@ F 3 "" H 5400 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L _saved_africube2-cache:L L1
+L L L1
 U 1 1 5D28D826
 P 4550 1450
 F 0 "L1" V 4500 1450 50  0000 C CNN
@@ -276,7 +320,7 @@ F 3 "" H 4550 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L _saved_africube2-cache:C_Small C1
+L C_Small C1
 U 1 1 5D28DB31
 P 4850 1400
 F 0 "C1" H 4860 1470 50  0000 L CNN
@@ -287,7 +331,7 @@ F 3 "" H 4850 1400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L _saved_africube2-cache:C_Small C2
+L C_Small C2
 U 1 1 5D28DBEB
 P 5150 1400
 F 0 "C2" H 5160 1470 50  0000 L CNN
@@ -298,7 +342,7 @@ F 3 "" H 5150 1400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5V #PWR013
+L +5V #PWR013
 U 1 1 5D28DD38
 P 5050 1150
 F 0 "#PWR013" H 5050 1000 50  0001 C CNN
@@ -309,7 +353,7 @@ F 3 "" H 5050 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR014
+L GND #PWR014
 U 1 1 5D28E5EE
 P 5150 1600
 F 0 "#PWR014" H 5150 1350 50  0001 C CNN
@@ -320,7 +364,7 @@ F 3 "" H 5150 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L _saved_africube2-cache:LED D1
+L LED D1
 U 1 1 5D28F097
 P 6200 1350
 F 0 "D1" H 6200 1450 50  0000 C CNN
@@ -331,7 +375,7 @@ F 3 "" H 6200 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L _saved_africube2-cache:R R1
+L R R1
 U 1 1 5D28F11F
 P 5900 1200
 F 0 "R1" V 5980 1200 50  0000 C CNN
@@ -342,7 +386,7 @@ F 3 "" H 5900 1200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L _saved_africube2-cache:BA178M05FP-E2 U3
+L BA178M05FP-E2 U3
 U 1 1 5D2904E6
 P 6200 3150
 F 0 "U3" H 6300 3000 60  0000 C CNN
@@ -353,7 +397,7 @@ F 3 "" H 6200 3200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR015
+L GND #PWR015
 U 1 1 5D290B49
 P 6200 3550
 F 0 "#PWR015" H 6200 3300 50  0001 C CNN
@@ -364,7 +408,7 @@ F 3 "" H 6200 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR016
+L GND #PWR016
 U 1 1 5D290BB7
 P 5550 3350
 F 0 "#PWR016" H 5550 3100 50  0001 C CNN
@@ -375,7 +419,7 @@ F 3 "" H 5550 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L _saved_africube2-cache:CP_Small C9
+L CP_Small C9
 U 1 1 5D290DB1
 P 5550 3150
 F 0 "C9" H 5400 3050 50  0000 L CNN
@@ -386,7 +430,7 @@ F 3 "" H 5550 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR017
+L GND #PWR017
 U 1 1 5D2914CD
 P 5250 3100
 F 0 "#PWR017" H 5250 2850 50  0001 C CNN
@@ -397,7 +441,7 @@ F 3 "" H 5250 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR018
+L GND #PWR018
 U 1 1 5D2915E4
 P 8250 2600
 F 0 "#PWR018" H 8250 2350 50  0001 C CNN
@@ -408,7 +452,7 @@ F 3 "" H 8250 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR019
+L +5V #PWR019
 U 1 1 5D29198F
 P 7150 3000
 F 0 "#PWR019" H 7150 2850 50  0001 C CNN
@@ -446,7 +490,7 @@ NoConn ~ 4900 5450
 NoConn ~ 4900 5550
 NoConn ~ 4900 5650
 $Comp
-L _saved_africube2-cache:Conn_01x04 J2
+L Conn_01x04 J2
 U 1 1 5D28FFAB
 P 4950 3000
 F 0 "J2" H 4950 3200 50  0000 C CNN
@@ -457,7 +501,7 @@ F 3 "" H 4950 3000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5V #PWR020
+L +5V #PWR020
 U 1 1 5D2900B7
 P 5300 2700
 F 0 "#PWR020" H 5300 2550 50  0001 C CNN
@@ -468,7 +512,7 @@ F 3 "" H 5300 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR021
+L GND #PWR021
 U 1 1 5D2B68A7
 P 5600 2350
 F 0 "#PWR021" H 5600 2100 50  0001 C CNN
@@ -479,7 +523,7 @@ F 3 "" H 5600 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L _saved_africube2-cache:L L4
+L L L4
 U 1 1 5D2C3437
 P 2350 3200
 F 0 "L4" V 2300 3200 50  0000 C CNN
@@ -490,7 +534,7 @@ F 3 "" H 2350 3200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L _saved_africube2-cache:C_Small C8
+L C_Small C8
 U 1 1 5D2C3876
 P 2750 2950
 F 0 "C8" H 2760 3020 50  0000 L CNN
@@ -505,7 +549,7 @@ Text Notes 1050 3050 0    60   ~ 0
 Text Notes 1450 2550 0    60   ~ 0
 0 Attenuation
 $Comp
-L _saved_africube2-cache:L L3
+L L L3
 U 1 1 5D2D8E0C
 P 4850 1900
 F 0 "L3" V 4800 1900 50  0000 C CNN
@@ -516,7 +560,7 @@ F 3 "" H 4850 1900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L _saved_africube2-cache:C_Small C7
+L C_Small C7
 U 1 1 5D2D974B
 P 5600 2150
 F 0 "C7" H 5610 2220 50  0000 L CNN
@@ -527,7 +571,7 @@ F 3 "" H 5600 2150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L _saved_africube2-cache:L L2
+L L L2
 U 1 1 5D2D9F26
 P 3300 1900
 F 0 "L2" V 3250 1900 50  0000 C CNN
@@ -538,7 +582,7 @@ F 3 "" H 3300 1900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L _saved_africube2-cache:C_Small C6
+L C_Small C6
 U 1 1 5D2DA29A
 P 2950 2050
 F 0 "C6" H 2960 2120 50  0000 L CNN
@@ -549,7 +593,7 @@ F 3 "" H 2950 2050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR022
+L GND #PWR022
 U 1 1 5D2DA4E0
 P 2950 2200
 F 0 "#PWR022" H 2950 1950 50  0001 C CNN
@@ -560,7 +604,7 @@ F 3 "" H 2950 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L _saved_africube2-cache:Conn_01x02 J4
+L Conn_01x02 J4
 U 1 1 5D319F18
 P 5600 3750
 F 0 "J4" H 5600 3850 50  0000 C CNN
@@ -577,14 +621,14 @@ Wire Wire Line
 Wire Wire Line
 	2350 4050 2350 3750
 Wire Wire Line
-	2350 2850 2350 2950
+	2350 2850 2350 3050
 Connection ~ 2350 2950
 Wire Wire Line
 	4000 2250 4000 2350
 Wire Wire Line
 	2350 1900 2350 2100
 Wire Wire Line
-	2350 2400 2350 2500
+	2350 2400 2350 2550
 Wire Wire Line
 	2600 2500 2350 2500
 Connection ~ 2350 2500
@@ -616,10 +660,10 @@ Wire Wire Line
 Connection ~ 5150 1200
 Connection ~ 5050 1200
 Wire Wire Line
-	5150 1500 5150 1550
+	5150 1500 5150 1600
 Connection ~ 5150 1550
 Wire Wire Line
-	4550 1200 4850 1200
+	4550 1200 5750 1200
 Wire Wire Line
 	4550 1200 4550 1300
 Wire Wire Line
@@ -641,9 +685,9 @@ Connection ~ 4850 1200
 Wire Wire Line
 	4850 1500 4850 1550
 Wire Wire Line
-	4850 1550 5150 1550
+	4850 1550 6200 1550
 Wire Wire Line
-	5150 3000 5550 3000
+	5150 3000 5750 3000
 Wire Wire Line
 	6200 3450 6200 3550
 Wire Wire Line
@@ -658,11 +702,11 @@ Connection ~ 5600 1900
 Wire Wire Line
 	5600 2250 5600 2350
 Wire Wire Line
-	4500 1900 4550 1900
+	4500 1900 4700 1900
 Wire Wire Line
-	5000 1900 5600 1900
+	5000 1900 5900 1900
 Wire Wire Line
-	2550 1900 2950 1900
+	2550 1900 3150 1900
 Wire Wire Line
 	2950 2150 2950 2200
 Wire Wire Line
@@ -683,17 +727,17 @@ Wire Wire Line
 Wire Wire Line
 	5300 2900 5150 2900
 Wire Wire Line
-	4900 3850 5150 3850
+	4900 3850 5400 3850
 Wire Wire Line
 	5400 3650 5400 3750
 Wire Wire Line
-	6450 2000 6450 2100
+	6450 2000 6450 2200
 Connection ~ 6550 2100
 Wire Wire Line
 	6550 2200 6550 2100
 Connection ~ 6450 2100
 $Comp
-L power:GND #PWR023
+L GND #PWR023
 U 1 1 5D287F38
 P 6450 2200
 F 0 "#PWR023" H 6450 1950 50  0001 C CNN
@@ -712,17 +756,17 @@ Wire Wire Line
 	7800 2100 7700 2100
 Connection ~ 7800 1900
 Wire Wire Line
-	7800 1900 7800 2000
+	7800 1900 7800 2100
 Wire Wire Line
 	7700 2000 7800 2000
 Wire Wire Line
-	7700 1900 7800 1900
+	7700 1900 8000 1900
 Wire Wire Line
 	6550 2200 6650 2200
 Wire Wire Line
-	6450 2100 6550 2100
+	6450 2100 6650 2100
 $Comp
-L power:GND #PWR024
+L GND #PWR024
 U 1 1 5D289F63
 P 8000 1900
 F 0 "#PWR024" H 8000 1650 50  0001 C CNN
@@ -733,7 +777,7 @@ F 3 "" H 8000 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L _saved_africube2-cache:SXBP-150+ U2
+L SXBP-150+ U2
 U 1 1 5D28748A
 P 7200 2050
 F 0 "U2" H 7200 1800 60  0000 C CNN
@@ -752,7 +796,7 @@ NoConn ~ 3000 3950
 NoConn ~ 3000 3750
 NoConn ~ 3000 4550
 $Comp
-L power:GND #PWR025
+L GND #PWR025
 U 1 1 5D701E2B
 P 5200 2400
 F 0 "#PWR025" H 5200 2150 50  0001 C CNN
@@ -772,7 +816,7 @@ Connection ~ 5550 3000
 Wire Wire Line
 	5550 3250 5550 3350
 $Comp
-L power:GND #PWR026
+L GND #PWR026
 U 1 1 5D7024AE
 P 5750 3300
 F 0 "#PWR026" H 5750 3050 50  0001 C CNN
@@ -785,7 +829,7 @@ $EndComp
 Wire Wire Line
 	5750 3150 5750 3300
 $Comp
-L africube_v1-cache:TEST_1P M1
+L TEST_1P M1
 U 1 1 5D715A60
 P 6950 1000
 F 0 "M1" H 6950 1270 50  0000 C CNN
@@ -796,7 +840,7 @@ F 3 "" H 7150 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L africube_v1-cache:TEST_1P M2
+L TEST_1P M2
 U 1 1 5D715AD8
 P 7350 1000
 F 0 "M2" H 7350 1270 50  0000 C CNN
@@ -807,7 +851,7 @@ F 3 "" H 7550 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L africube_v1-cache:TEST_1P M3
+L TEST_1P M3
 U 1 1 5D715B54
 P 7750 1000
 F 0 "M3" H 7750 1270 50  0000 C CNN
@@ -818,7 +862,7 @@ F 3 "" H 7950 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L africube_v1-cache:TEST_1P M4
+L TEST_1P M4
 U 1 1 5D715BCD
 P 8200 1000
 F 0 "M4" H 8200 1270 50  0000 C CNN
@@ -829,7 +873,7 @@ F 3 "" H 8400 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR027
+L GND #PWR027
 U 1 1 5D715C43
 P 6950 1050
 F 0 "#PWR027" H 6950 800 50  0001 C CNN
@@ -840,7 +884,7 @@ F 3 "" H 6950 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR028
+L GND #PWR028
 U 1 1 5D715CA8
 P 7350 1050
 F 0 "#PWR028" H 7350 800 50  0001 C CNN
@@ -851,7 +895,7 @@ F 3 "" H 7350 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR029
+L GND #PWR029
 U 1 1 5D715D0D
 P 7750 1050
 F 0 "#PWR029" H 7750 800 50  0001 C CNN
@@ -862,7 +906,7 @@ F 3 "" H 7750 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR030
+L GND #PWR030
 U 1 1 5D715D72
 P 8200 1050
 F 0 "#PWR030" H 8200 800 50  0001 C CNN
@@ -882,40 +926,4 @@ Wire Wire Line
 	8200 1000 8200 1050
 Text Notes 6950 2500 0    60   ~ 0
 2M Tx/ Band Pass
-Wire Wire Line
-	2350 2950 2350 3050
-Wire Wire Line
-	2350 2500 2350 2550
-Wire Wire Line
-	5150 3850 5400 3850
-Wire Wire Line
-	5150 1200 5650 1200
-Wire Wire Line
-	5050 1200 5150 1200
-Wire Wire Line
-	5150 1550 5150 1600
-Wire Wire Line
-	5150 1550 5650 1550
-Wire Wire Line
-	4550 1900 4700 1900
-Wire Wire Line
-	5650 1550 6200 1550
-Wire Wire Line
-	5650 1200 5750 1200
-Wire Wire Line
-	4850 1200 5050 1200
-Wire Wire Line
-	5600 1900 5900 1900
-Wire Wire Line
-	2950 1900 3150 1900
-Wire Wire Line
-	6550 2100 6650 2100
-Wire Wire Line
-	6450 2100 6450 2200
-Wire Wire Line
-	7800 2000 7800 2100
-Wire Wire Line
-	7800 1900 8000 1900
-Wire Wire Line
-	5550 3000 5750 3000
 $EndSCHEMATC

@@ -1,6 +1,44 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:SXBP-150+
+LIBS:SBB2089Z _MINI_POWER_amp_20dbm
+LIBS:Raspberry_Pi_2m_TX_LPF_7Stage-cache
+LIBS:dk_RF-Amplifiers
+LIBS:HamShield09-cache
 LIBS:vhf_uhf_IQ_Modulator_V4-cache
-EELAYER 30 0
+LIBS:BA178M05FP-E2
+EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -15,7 +53,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L BA178M05FP-E2:Conn_Coaxial J5
+L Conn_Coaxial J5
 U 1 1 59F85ADB
 P 7600 2050
 F 0 "J5" H 7610 2170 50  0000 C CNN
@@ -26,7 +64,7 @@ F 3 "" H 7600 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR06
+L GND #PWR06
 U 1 1 59FF479B
 P 5250 5150
 F 0 "#PWR06" H 5250 4900 50  0001 C CNN
@@ -37,7 +75,7 @@ F 3 "" H 5250 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BA178M05FP-E2:CP_Small C10
+L CP_Small C10
 U 1 1 5A12ECC9
 P 5650 1400
 F 0 "C10" H 5500 1300 50  0000 L CNN
@@ -52,7 +90,7 @@ Text Notes 7100 1750 0    60   ~ 0
 Text Notes 2800 8550 0    118  ~ 0
 2m Filter\n\nFilter SXBP-140+\nrf Amp  SKY65017-70LF\nMAAM-011185-TR1000 \nTQP7M9105
 $Comp
-L vhf_uhf_IQ_Modulator_V4-rescue:RPi_GPIO J?
+L RPi_GPIO J?
 U 1 1 5D284E9D
 P 3200 3750
 F 0 "J?" H 3950 4000 60  0000 C CNN
@@ -63,7 +101,7 @@ F 3 "" H 3200 3750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BA178M05FP-E2:R R?
+L R R?
 U 1 1 5D285727
 P 2350 3200
 F 0 "R?" V 2430 3200 50  0000 C CNN
@@ -74,7 +112,7 @@ F 3 "" H 2350 3200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L BA178M05FP-E2:R R?
+L R R?
 U 1 1 5D285861
 P 2350 2700
 F 0 "R?" V 2430 2700 50  0000 C CNN
@@ -85,7 +123,7 @@ F 3 "" H 2350 2700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L BA178M05FP-E2:R R?
+L R R?
 U 1 1 5D28591D
 P 2700 2950
 F 0 "R?" V 2780 2950 50  0000 C CNN
@@ -96,7 +134,7 @@ F 3 "" H 2700 2950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BA178M05FP-E2:C_Small C?
+L C_Small C?
 U 1 1 5D2859AF
 P 2350 3650
 F 0 "C?" H 2360 3720 50  0000 L CNN
@@ -107,7 +145,7 @@ F 3 "" H 2350 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5D285F6E
 P 2950 2950
 F 0 "#PWR?" H 2950 2700 50  0001 C CNN
@@ -118,7 +156,7 @@ F 3 "" H 2950 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BA178M05FP-E2:SXBP-150+ U?
+L SXBP-150+ U?
 U 1 1 5D28748A
 P 6100 2050
 F 0 "U?" H 6100 1800 60  0000 C CNN
@@ -129,7 +167,7 @@ F 3 "" H 6100 1900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5D287F38
 P 5350 2200
 F 0 "#PWR?" H 5350 1950 50  0001 C CNN
@@ -140,7 +178,7 @@ F 3 "" H 5350 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5D289F63
 P 6900 1900
 F 0 "#PWR?" H 6900 1650 50  0001 C CNN
@@ -151,7 +189,7 @@ F 3 "" H 6900 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BA178M05FP-E2:C_Small C?
+L C_Small C?
 U 1 1 5D28AC94
 P 2900 1900
 F 0 "C?" H 2910 1970 50  0000 L CNN
@@ -162,7 +200,7 @@ F 3 "" H 2900 1900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L HamShield09-cache:TQP7M9105 U?
+L TQP7M9105 U?
 U 1 1 5D28AEEE
 P 4000 1900
 F 0 "U?" H 3800 2300 60  0000 C CNN
@@ -173,7 +211,7 @@ F 3 "" H 4000 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5D28B1FD
 P 4000 2350
 F 0 "#PWR?" H 4000 2100 50  0001 C CNN
@@ -186,7 +224,7 @@ $EndComp
 Text Notes 3650 1400 0    60   ~ 0
 23db (out 27dbm)
 $Comp
-L BA178M05FP-E2:C_Small C?
+L C_Small C?
 U 1 1 5D28B7CB
 P 5250 1900
 F 0 "C?" H 5260 1970 50  0000 L CNN
@@ -201,7 +239,7 @@ Text Label 2450 1850 0    60   ~ 0
 Text Label 2250 4200 0    60   ~ 0
 15dbm
 $Comp
-L BA178M05FP-E2:R R?
+L R R?
 U 1 1 5D28BAD8
 P 2750 2500
 F 0 "R?" V 2830 2500 50  0000 C CNN
@@ -212,7 +250,7 @@ F 3 "" H 2750 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BA178M05FP-E2:R R?
+L R R?
 U 1 1 5D28BB47
 P 2350 2250
 F 0 "R?" V 2430 2250 50  0000 C CNN
@@ -223,7 +261,7 @@ F 3 "" H 2350 2250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5D28BD77
 P 3000 2500
 F 0 "#PWR?" H 3000 2250 50  0001 C CNN
@@ -234,7 +272,7 @@ F 3 "" H 3000 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5D28BF32
 P 5250 3950
 F 0 "#PWR?" H 5250 3700 50  0001 C CNN
@@ -245,7 +283,7 @@ F 3 "" H 5250 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5D28BF8B
 P 2800 4150
 F 0 "#PWR?" H 2800 3900 50  0001 C CNN
@@ -256,7 +294,7 @@ F 3 "" H 2800 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5D28BFE4
 P 2800 4950
 F 0 "#PWR?" H 2800 4700 50  0001 C CNN
@@ -267,7 +305,7 @@ F 3 "" H 2800 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5D28C433
 P 2800 5650
 F 0 "#PWR?" H 2800 5400 50  0001 C CNN
@@ -278,7 +316,7 @@ F 3 "" H 2800 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5D28C730
 P 5250 4650
 F 0 "#PWR?" H 5250 4400 50  0001 C CNN
@@ -289,7 +327,7 @@ F 3 "" H 5250 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5D28C789
 P 5250 5350
 F 0 "#PWR?" H 5250 5100 50  0001 C CNN
@@ -300,7 +338,7 @@ F 3 "" H 5250 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5D28C7E2
 P 5250 4350
 F 0 "#PWR?" H 5250 4100 50  0001 C CNN
@@ -311,7 +349,7 @@ F 3 "" H 5250 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L +5V #PWR?
 U 1 1 5D28CE0E
 P 5250 3750
 F 0 "#PWR?" H 5250 3600 50  0001 C CNN
@@ -322,7 +360,7 @@ F 3 "" H 5250 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BA178M05FP-E2:L L?
+L L L?
 U 1 1 5D28D826
 P 4550 1450
 F 0 "L?" V 4500 1450 50  0000 C CNN
@@ -333,7 +371,7 @@ F 3 "" H 4550 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BA178M05FP-E2:C_Small C?
+L C_Small C?
 U 1 1 5D28DB31
 P 4850 1400
 F 0 "C?" H 4860 1470 50  0000 L CNN
@@ -344,7 +382,7 @@ F 3 "" H 4850 1400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L BA178M05FP-E2:C_Small C?
+L C_Small C?
 U 1 1 5D28DBEB
 P 5150 1400
 F 0 "C?" H 5160 1470 50  0000 L CNN
@@ -355,7 +393,7 @@ F 3 "" H 5150 1400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5V #PWR?
+L +5V #PWR?
 U 1 1 5D28DD38
 P 5050 1150
 F 0 "#PWR?" H 5050 1000 50  0001 C CNN
@@ -366,7 +404,7 @@ F 3 "" H 5050 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5D28E5EE
 P 5150 1600
 F 0 "#PWR?" H 5150 1350 50  0001 C CNN
@@ -385,7 +423,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 3550 2350 3350
 Wire Wire Line
-	2350 2850 2350 2950
+	2350 2850 2350 3050
 Wire Wire Line
 	2550 2950 2350 2950
 Connection ~ 2350 2950
@@ -398,20 +436,20 @@ Wire Wire Line
 Wire Wire Line
 	5550 2000 5350 2000
 Wire Wire Line
-	5350 2000 5350 2100
+	5350 2000 5350 2200
 Wire Wire Line
-	5350 2100 5450 2100
+	5350 2100 5550 2100
 Connection ~ 5350 2100
 Wire Wire Line
 	5450 2200 5550 2200
 Wire Wire Line
 	2850 2950 2950 2950
 Wire Wire Line
-	6600 1900 6700 1900
+	6600 1900 6900 1900
 Wire Wire Line
 	6600 2000 6700 2000
 Wire Wire Line
-	6700 1900 6700 2000
+	6700 1900 6700 2100
 Connection ~ 6700 1900
 Wire Wire Line
 	6700 2100 6600 2100
@@ -428,11 +466,11 @@ Wire Wire Line
 Wire Wire Line
 	5550 1900 5350 1900
 Wire Wire Line
-	4500 1900 4550 1900
+	4500 1900 5150 1900
 Wire Wire Line
 	2350 1900 2350 2100
 Wire Wire Line
-	2350 2400 2350 2500
+	2350 2400 2350 2550
 Wire Wire Line
 	2600 2500 2350 2500
 Connection ~ 2350 2500
@@ -455,7 +493,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 3850 5250 3750
 Wire Wire Line
-	4900 3850 5150 3850
+	4900 3850 5250 3850
 Wire Wire Line
 	4900 3750 5150 3750
 Wire Wire Line
@@ -470,10 +508,10 @@ Wire Wire Line
 Connection ~ 5150 1200
 Connection ~ 5050 1200
 Wire Wire Line
-	5150 1500 5150 1550
+	5150 1500 5150 1600
 Connection ~ 5150 1550
 Wire Wire Line
-	4550 1200 4850 1200
+	4550 1200 5750 1200
 Wire Wire Line
 	4550 1200 4550 1300
 Wire Wire Line
@@ -484,7 +522,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 1550 5650 1500
 $Comp
-L vhf_uhf_IQ_Modulator_V4-rescue:LED D?
+L LED D?
 U 1 1 5D28F097
 P 6200 1350
 F 0 "D?" H 6200 1450 50  0000 C CNN
@@ -495,7 +533,7 @@ F 3 "" H 6200 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BA178M05FP-E2:R R?
+L R R?
 U 1 1 5D28F11F
 P 5900 1200
 F 0 "R?" V 5980 1200 50  0000 C CNN
@@ -517,9 +555,9 @@ Connection ~ 4850 1200
 Wire Wire Line
 	4850 1500 4850 1550
 Wire Wire Line
-	4850 1550 5150 1550
+	4850 1550 6200 1550
 $Comp
-L BA178M05FP-E2:BA178M05FP-E2 U?
+L BA178M05FP-E2 U?
 U 1 1 5D2904E6
 P 6200 3150
 F 0 "U?" H 6300 3000 60  0000 C CNN
@@ -530,7 +568,7 @@ F 3 "" H 6200 3200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BA178M05FP-E2:CONN_01X03 P?
+L CONN_01X03 P?
 U 1 1 5D290AB3
 P 4950 3000
 F 0 "P?" H 4950 3200 50  0000 C CNN
@@ -541,7 +579,7 @@ F 3 "" H 4950 3000 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5D290B49
 P 6200 3550
 F 0 "#PWR?" H 6200 3300 50  0001 C CNN
@@ -552,7 +590,7 @@ F 3 "" H 6200 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5D290BB7
 P 5650 3350
 F 0 "#PWR?" H 5650 3100 50  0001 C CNN
@@ -563,7 +601,7 @@ F 3 "" H 5650 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BA178M05FP-E2:CP_Small C?
+L CP_Small C?
 U 1 1 5D290DB1
 P 5650 3150
 F 0 "C?" H 5500 3050 50  0000 L CNN
@@ -574,7 +612,7 @@ F 3 "" H 5650 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5750 3000 5650 3000
+	5750 3000 5600 3000
 Wire Wire Line
 	5600 3000 5600 2900
 Wire Wire Line
@@ -582,7 +620,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 3450 6200 3550
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5D2914CD
 P 5250 3100
 F 0 "#PWR?" H 5250 2850 50  0001 C CNN
@@ -595,7 +633,7 @@ $EndComp
 Wire Wire Line
 	5150 3100 5250 3100
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 5D2915E4
 P 7600 2450
 F 0 "#PWR?" H 7600 2200 50  0001 C CNN
@@ -611,7 +649,7 @@ Connection ~ 5650 3000
 Wire Wire Line
 	5650 3250 5650 3350
 $Comp
-L power:+5V #PWR?
+L +5V #PWR?
 U 1 1 5D29198F
 P 7150 3000
 F 0 "#PWR?" H 7150 2850 50  0001 C CNN
@@ -654,36 +692,4 @@ NoConn ~ 4900 5250
 NoConn ~ 4900 5450
 NoConn ~ 4900 5550
 NoConn ~ 4900 5650
-Wire Wire Line
-	2350 2950 2350 3050
-Wire Wire Line
-	5350 2100 5350 2200
-Wire Wire Line
-	6700 1900 6900 1900
-Wire Wire Line
-	6700 2000 6700 2100
-Wire Wire Line
-	5450 2100 5550 2100
-Wire Wire Line
-	2350 2500 2350 2550
-Wire Wire Line
-	5150 3850 5250 3850
-Wire Wire Line
-	5150 1200 5650 1200
-Wire Wire Line
-	5050 1200 5150 1200
-Wire Wire Line
-	5150 1550 5150 1600
-Wire Wire Line
-	5150 1550 5650 1550
-Wire Wire Line
-	4550 1900 5150 1900
-Wire Wire Line
-	5650 1550 6200 1550
-Wire Wire Line
-	5650 1200 5750 1200
-Wire Wire Line
-	4850 1200 5050 1200
-Wire Wire Line
-	5650 3000 5600 3000
 $EndSCHEMATC

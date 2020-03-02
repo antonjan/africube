@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name vhf_uhf_IQ_Modulator_V4-rescue)(type Legacy)(uri ${KIPRJMOD}/vhf_uhf_IQ_Modulator_V4-rescue.lib)(options "")(descr ""))
+  (lib (name dk_RF-Amplifiers)(type Legacy)(uri ${KIPRJMOD}/dk_RF-Amplifiers.lib)(options "")(descr ""))
+  (lib (name HamShield09-cache)(type Legacy)(uri ${KIPRJMOD}/HamShield09-cache.lib)(options "")(descr ""))
+  (lib (name BA178M05FP-E2)(type Legacy)(uri ${KIPRJMOD}/BA178M05FP-E2.lib)(options "")(descr ""))
+)
