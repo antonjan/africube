@@ -1,5 +1,6 @@
 # africube is the repository of a linear satellite transponder. (AMSATSA)
-
+# pcb
+![2220mW tx Board for Raspberry Pi](doc/africube_tx_PCB_1.png?raw=true "220mw 2m band  board")<br>
 # Project Status.
 This project TX PCB is compleet and testing will start now. 10 September 2019
 Transponder is now working propely and CW and APRS telemetry is also working.
