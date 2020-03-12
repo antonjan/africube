@@ -3,4 +3,5 @@
   (lib (name dk_RF-Amplifiers)(type Legacy)(uri ${KIPRJMOD}/dk_RF-Amplifiers.lib)(options "")(descr ""))
   (lib (name HamShield09-cache)(type Legacy)(uri ${KIPRJMOD}/HamShield09-cache.lib)(options "")(descr ""))
   (lib (name BA178M05FP-E2)(type Legacy)(uri ${KIPRJMOD}/BA178M05FP-E2.lib)(options "")(descr ""))
+  (lib (name africube3-rescue)(type Legacy)(uri ${KIPRJMOD}/africube3-rescue.lib)(options "")(descr ""))
 )

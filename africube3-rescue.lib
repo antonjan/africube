@@ -1,0 +1,298 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# BA178M05FP-E2-_saved_africube2-cache
+#
+DEF BA178M05FP-E2-_saved_africube2-cache U 0 40 Y Y 1 F N
+F0 "U" 100 -150 60 H V C CNN
+F1 "BA178M05FP-E2-_saved_africube2-cache" 50 300 60 H V C CNN
+F2 "" 0 50 60 H I C CNN
+F3 "" 0 50 60 H I C CNN
+DRAW
+S -250 250 250 -100 0 1 0 N
+X Pin 1 -450 150 200 R 50 50 1 1 I
+X GND 2 -450 0 200 R 50 50 1 1 B
+X Pout 3 450 150 200 L 50 50 1 1 I
+X Gnd 4 0 -300 200 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# CP_Small-_saved_africube2-cache
+#
+DEF CP_Small-_saved_africube2-cache C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CP_Small-_saved_africube2-cache" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+S -60 -12 60 -27 0 1 0 F
+S -60 27 60 12 0 1 0 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+X ~ 1 0 100 73 D 50 50 1 1 P
+X ~ 2 0 -100 73 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C_Small-_saved_africube2-cache
+#
+DEF C_Small-_saved_africube2-cache C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "C_Small-_saved_africube2-cache" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_01x02-_saved_africube2-cache
+#
+DEF Conn_01x02-_saved_africube2-cache J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Conn_01x02-_saved_africube2-cache" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_01x04-_saved_africube2-cache
+#
+DEF Conn_01x04-_saved_africube2-cache J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Conn_01x04-_saved_africube2-cache" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -250 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_Coaxial-_saved_africube2-cache
+#
+DEF Conn_Coaxial-_saved_africube2-cache J 0 40 Y N 1 F N
+F0 "J" 10 120 50 H V C CNN
+F1 "Conn_Coaxial-_saved_africube2-cache" 115 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *BNC*
+ *SMA*
+ *SMB*
+ *SMC*
+ *Cinch*
+$ENDFPLIST
+DRAW
+A -2 0 71 1636 0 0 1 10 N -70 20 70 0
+A -1 0 71 0 -1638 0 1 10 N 70 0 -70 -20
+C 0 0 20 0 1 8 N
+P 2 0 1 0 -50 0 -20 0 N
+P 2 0 1 0 0 -100 0 -70 N
+X In 1 -150 0 100 R 50 50 1 1 P
+X Ext 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# L-_saved_africube2-cache
+#
+DEF L-_saved_africube2-cache L 0 40 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "L-_saved_africube2-cache" 75 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LED-_saved_africube2-cache
+#
+DEF LED-_saved_africube2-cache D 0 40 Y N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "LED-_saved_africube2-cache" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ LED*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R-_saved_africube2-cache
+#
+DEF R-_saved_africube2-cache R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R-_saved_africube2-cache" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RPi_GPIO-_saved_africube2-cache
+#
+DEF RPi_GPIO-_saved_africube2-cache J 0 40 Y Y 1 F N
+F0 "J" 750 250 60 H V C CNN
+F1 "RPi_GPIO-_saved_africube2-cache" 750 150 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S 0 100 1500 -2000 0 1 0 N
+X 3.3V 1 -200 0 200 R 50 50 1 1 W I
+X GPIO15_RXD0 10 1700 -400 200 L 50 50 1 1 B I
+X GPIO17_SPI1_CE1 11 -200 -500 200 R 50 50 1 1 B I
+X GPIO18 12 1700 -500 200 L 50 50 1 1 B I
+X GPIO27 13 -200 -600 200 R 50 50 1 1 B I
+X GND 14 1700 -600 200 L 50 50 1 1 W I
+X GPIO22 15 -200 -700 200 R 50 50 1 1 B I
+X GPIO23 16 1700 -700 200 L 50 50 1 1 B I
+X 3.3V 17 -200 -800 200 R 50 50 1 1 W I
+X GPIO24 18 1700 -800 200 L 50 50 1 1 B I
+X GPIO10_SPI_MOSI 19 -200 -900 200 R 50 50 1 1 B I
+X 5V 2 1700 0 200 L 50 50 1 1 W I
+X GND 20 1700 -900 200 L 50 50 1 1 W I
+X GPIO09_SPI_MISO 21 -200 -1000 200 R 50 50 1 1 B I
+X GPIO25 22 1700 -1000 200 L 50 50 1 1 B I
+X GPIO11_SPI_CLK 23 -200 -1100 200 R 50 50 1 1 B I
+X GPIO08_SPI_CE0_N 24 1700 -1100 200 L 50 50 1 1 B I
+X GND 25 -200 -1200 200 R 50 50 1 1 W I
+X GPIO07_SPI_CE1_N 26 1700 -1200 200 L 50 50 1 1 B I
+X ID_SD 27 -200 -1300 200 R 50 50 1 1 B I
+X ID_SC 28 1700 -1300 200 L 50 50 1 1 B I
+X GPIO05 29 -200 -1400 200 R 50 50 1 1 B I
+X GPIO02_SDA1_I2C 3 -200 -100 200 R 50 50 1 1 B I
+X GND 30 1700 -1400 200 L 50 50 1 1 W I
+X GPIO06 31 -200 -1500 200 R 50 50 1 1 B I
+X GPIO12 32 1700 -1500 200 L 50 50 1 1 B I
+X GPIO13 33 -200 -1600 200 R 50 50 1 1 B I
+X GND 34 1700 -1600 200 L 50 50 1 1 W I
+X GPIO19_SPI_MISO 35 -200 -1700 200 R 50 50 1 1 B I
+X GPIO16_SPI1_CE2 36 1700 -1700 200 L 50 50 1 1 B I
+X GPIO26 37 -200 -1800 200 R 50 50 1 1 B I
+X GPIO20_SPI_MOSI 38 1700 -1800 200 L 50 50 1 1 B I
+X GND 39 -200 -1900 200 R 50 50 1 1 W I
+X 5V 4 1700 -100 200 L 50 50 1 1 W I
+X GPIO21_SPI_SCLK 40 1700 -1900 200 L 50 50 1 1 B I
+X GPIO03_SCL1_I2C 5 -200 -200 200 R 50 50 1 1 B I
+X GND 6 1700 -200 200 L 50 50 1 1 W I
+X GPIO04_GCLK 7 -200 -300 200 R 50 50 1 1 B I
+X GPIO14_TXD0 8 1700 -300 200 L 50 50 1 1 B I
+X GND 9 -200 -400 200 R 50 50 1 1 W I
+ENDDRAW
+ENDDEF
+#
+# SXBP-150+-_saved_africube2-cache
+#
+DEF SXBP-150+-_saved_africube2-cache U 0 40 Y Y 1 F N
+F0 "U" 0 -250 60 H V C CNN
+F1 "SXBP-150+-_saved_africube2-cache" 0 250 60 H V C CNN
+F2 "" 0 -150 60 H I C CNN
+F3 "" 0 -150 60 H I C CNN
+DRAW
+T 900 -50 0 60 0 0 0 "SAW BPF" Normal 0 C C
+S -350 200 300 -200 0 1 0 N
+X RF_IN 1 -550 150 200 R 50 50 1 1 I
+X GND 2 500 150 200 L 50 50 1 1 W
+X GND 3 -550 50 200 R 50 50 1 1 W
+X GND 4 500 50 200 L 50 50 1 1 W
+X GND 5 -550 -50 200 R 50 50 1 1 W
+X GND 6 500 -50 200 L 50 50 1 1 W
+X GND 7 -550 -150 200 R 50 50 1 1 W
+X RF_OUT 8 500 -150 200 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# TEST_1P-africube_v1-cache
+#
+DEF TEST_1P-africube_v1-cache J 0 30 N N 1 F N
+F0 "J" 0 270 50 H V C CNN
+F1 "TEST_1P-africube_v1-cache" 0 200 50 H V C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+DRAW
+C 0 130 30 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TQP7M9105-_saved_africube2-cache
+#
+DEF TQP7M9105-_saved_africube2-cache U 0 40 Y Y 1 F N
+F0 "U" -200 400 60 H V C CNN
+F1 "TQP7M9105-_saved_africube2-cache" 0 300 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 4 0 1 0 -300 300 -300 -300 300 0 -300 300 N
+X RFin 1 -500 0 200 R 50 50 1 1 I
+X GND 2 0 -350 200 U 50 50 1 1 P
+X RFout 3 500 0 200 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+#End Library
