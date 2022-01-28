@@ -242,17 +242,6 @@ F 3 "" H 5250 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR012
-U 1 1 5D28CE0E
-P 5400 3650
-F 0 "#PWR012" H 5400 3500 50  0001 C CNN
-F 1 "+5V" H 5400 3790 50  0000 C CNN
-F 2 "" H 5400 3650 50  0001 C CNN
-F 3 "" H 5400 3650 50  0001 C CNN
-	1    5400 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L africube3-rescue:L-_saved_africube2-cache L1
 U 1 1 5D28D826
 P 4550 1450
@@ -550,12 +539,12 @@ $EndComp
 $Comp
 L africube3-rescue:Conn_01x02-_saved_africube2-cache J4
 U 1 1 5D319F18
-P 5600 3750
-F 0 "J4" H 5600 3850 50  0000 C CNN
-F 1 "Conn_01x02" H 5600 3550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 5600 3750 50  0001 C CNN
-F 3 "" H 5600 3750 50  0001 C CNN
-	1    5600 3750
+P 6775 3750
+F 0 "J4" H 6775 3850 50  0000 C CNN
+F 1 "Conn_01x02" H 6775 3550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6775 3750 50  0001 C CNN
+F 3 "" H 6775 3750 50  0001 C CNN
+	1    6775 3750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -672,8 +661,6 @@ Wire Wire Line
 	5300 2900 5150 2900
 Wire Wire Line
 	4900 3850 5150 3850
-Wire Wire Line
-	5400 3650 5400 3750
 Wire Wire Line
 	6450 2000 6450 2100
 Connection ~ 6550 2100
@@ -917,4 +904,89 @@ F 3 "" H 7150 1000 50  0001 C CNN
 	1    6950 1000
 	1    0    0    -1  
 $EndComp
+$Comp
+L africube3-rescue:L-_saved_africube2-cache L5
+U 1 1 61F2B5FB
+P 5550 3850
+F 0 "L5" V 5500 3850 50  0000 C CNN
+F 1 "0" V 5625 3850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 5550 3850 50  0001 C CNN
+F 3 "" H 5550 3850 50  0001 C CNN
+	1    5550 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5700 3850 6575 3850
+$Comp
+L power:+5V #PWR012
+U 1 1 5D28CE0E
+P 7850 3325
+F 0 "#PWR012" H 7850 3175 50  0001 C CNN
+F 1 "+5V" H 7850 3465 50  0000 C CNN
+F 2 "" H 7850 3325 50  0001 C CNN
+F 3 "" H 7850 3325 50  0001 C CNN
+	1    7850 3325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6575 3750 6575 3500
+Wire Wire Line
+	6575 3500 6700 3500
+$Comp
+L africube3-rescue:R-_saved_africube2-cache R?
+U 1 1 61F3E0D6
+P 6925 3500
+F 0 "R?" V 7005 3500 50  0000 C CNN
+F 1 "0" V 6925 3500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6855 3500 50  0001 C CNN
+F 3 "" H 6925 3500 50  0001 C CNN
+	1    6925 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L africube3-rescue:C_Small-_saved_africube2-cache C?
+U 1 1 61F3F58B
+P 7325 3500
+F 0 "C?" H 7335 3570 50  0000 L CNN
+F 1 "100pF" H 7335 3420 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7325 3500 50  0001 C CNN
+F 3 "" H 7325 3500 50  0001 C CNN
+	1    7325 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61F405DB
+P 7100 3250
+F 0 "D?" H 7093 2995 50  0000 C CNN
+F 1 "LED" H 7093 3086 50  0000 C CNN
+F 2 "" H 7100 3250 50  0001 C CNN
+F 3 "~" H 7100 3250 50  0001 C CNN
+	1    7100 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6700 3500 6700 3250
+Wire Wire Line
+	6700 3250 6950 3250
+Connection ~ 6700 3500
+Wire Wire Line
+	6700 3500 6775 3500
+Wire Wire Line
+	7250 3250 7625 3250
+Wire Wire Line
+	7625 3250 7625 3500
+Wire Wire Line
+	7625 3500 7425 3500
+Wire Wire Line
+	7075 3500 7150 3500
+Wire Wire Line
+	7150 3500 7150 3850
+Wire Wire Line
+	7150 3850 7850 3850
+Wire Wire Line
+	7850 3325 7850 3850
+Connection ~ 7150 3500
+Wire Wire Line
+	7150 3500 7225 3500
 $EndSCHEMATC
